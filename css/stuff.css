@@ -1,5 +1,5 @@
 body {
-    background: url(imgs/small_steps.png) 50% 50% fixed repeat;
+    background: url(../imgs/small_steps.png) 50% 50% fixed repeat;
     -moz-background-size: auto, cover; /* Firefox 3.6 */
     background-size: auto, cover; /* Chrome, Firefox 4.0+, Safari 4.1+, Opera 10+ and IE9 */
     font-family: avenir;
@@ -29,19 +29,19 @@ img {
 
 @font-face {
     font-family: luna;
-    src: url(fonts/luna.ttf);
+    src: url(../fonts/luna.ttf);
 }
 
 
 @font-face {
     font-family: avenir;
-    src: url(fonts/avenir.ttc);
+    src: url(../fonts/avenir.ttc);
 }
 
 
 @font-face {
     font-family: social;
-    src: url(fonts/social.ttf);
+    src: url(../fonts/social.ttf);
 }
 
 
@@ -64,18 +64,18 @@ p {
     letter-spacing: 3pt;
 }
 
-a:link {
+a.socialicons:link {
     color: #1f9d84;
     text-decoration: none;
     opacity: 0.6;
 }
 
-a:visited {
+a.socialicons:visited {
     color: #1f9d84;
     text-decoration: none;
 }
 
-a:hover {
+a.socialicons:hover {
     opacity:1;
     filter: Alpha(opacity=100);
 }
