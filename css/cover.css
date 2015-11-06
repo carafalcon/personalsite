@@ -15,16 +15,11 @@ a:hover {
     font-size: 36pt;
     letter-spacing: 3pt;
 }
-/
-a.socialicons:link {
+
+a.socialicons:link, a.socialicons:visited {
     color: #866F99;
     text-decoration: none;
     opacity: 0.6;
-}
-
-a.socialicons:visited {
-    color: #866F99;
-    text-decoration: none;
 }
 
 a.socialicons:hover {
