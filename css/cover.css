@@ -124,7 +124,7 @@ body {
   }
   .masthead-nav {
     float: right;
-      display: none;
+    display: none;
   }
 }
 
@@ -150,7 +150,6 @@ body {
 
 .lead {
     font-size: 12pt;
-    /*color: #FFF;*/
 }
 
 h6 {
