@@ -1,0 +1,210 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #FFF;
+}
+
+.socialicons {
+    color: #FFF;
+    font-family: social;
+    font-size: 36pt;
+    letter-spacing: 3pt;
+}
+
+a.socialicons:link, a.socialicons:visited {
+    color: #FFF;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+a.socialicons:hover {
+    opacity:1;
+    filter: Alpha(opacity=100);
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: transparent;
+  border: 1px solid #6a6a6a;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  /*background: url(../imgs/small_steps.png) fixed repeat;*/
+    background-color: #f69779;
+}
+body {
+  color: #292929;
+  text-align: center;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+
+.signature {
+    width: 70%;
+    margin: 20px;
+}
+
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+    display: none;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #866f99; /* IE8 proofing */
+  color: rgba(134, 111, 153, 0.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #ffffff;
+  border-bottom-color: #363636;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+    display: none;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+
+.cover-heading {
+    color: #FFF;
+    font-family: luna;
+    font-weight: bold;
+}
+
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.lead {
+    font-size: 12pt;
+}
+
+h6 {
+    color: #e7e7e7;
+}
+
+/*
+ * Footer
+ */
+
+/*
+ * Fonts
+ */
+@font-face {
+    font-family: luna;
+    src: url(../fonts/luna.ttf);
+}
+
+
+@font-face {
+    font-family: avenir;
+    src: url(../fonts/avenir.ttc);
+}
+
+
+@font-face {
+    font-family: social;
+    src: url(../fonts/social.ttf);
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .cover-container {
+    width: 700px;
+  }
+}
