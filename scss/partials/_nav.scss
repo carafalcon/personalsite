@@ -8,10 +8,6 @@ $color-link: #FFF;
 $button-height: 27px;
 $button-width: 35px;
 
-body {
-  background: $color-background;
-}
-
 .container {
   position: absolute;
   width: 100%;
@@ -152,7 +148,7 @@ h1 {
     font-size: 50px;
     font-family: 'Vollkorn', serif;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
   }
   ul {
     list-style: none;

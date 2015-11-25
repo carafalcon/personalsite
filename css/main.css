@@ -46,7 +46,7 @@ html,
 body {
   height: 100%;
   /*background: url(../imgs/small_steps.png) fixed repeat;*/
-  background-color: #f69779; }
+  background-color: black; }
 
 /* line 51, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
 body {
@@ -204,10 +204,6 @@ h6 {
     width: 700px; } }
 
 /* line 11, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
-body {
-  background: #FFF; }
-
-/* line 15, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
 .container {
   position: absolute;
   width: 100%;
@@ -217,10 +213,10 @@ body {
   left: 0;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif; }
-  /* line 25, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+  /* line 21, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .container p {
     font-size: 20px; }
-  /* line 29, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+  /* line 25, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .container a {
     display: inline-block;
     position: relative;
@@ -230,7 +226,7 @@ body {
     font-size: 20px;
     overflow: hidden;
     top: 5px; }
-    /* line 39, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    /* line 35, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
     .container a:after {
       content: '';
       position: absolute;
@@ -241,19 +237,19 @@ body {
       left: 50%;
       bottom: 0;
       transition: .35s ease; }
-    /* line 52, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    /* line 48, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
     .container a:hover:after,
     .container a:focus:after,
     .container a:active:after {
       width: 100%; }
 
-/* line 58, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+/* line 54, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
 h1 {
   position: relative;
   text-align: center;
   font-family: 'Vollkorn', serif; }
 
-/* line 64, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+/* line 60, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
 .button_container {
   position: fixed;
   top: 5%;
@@ -263,22 +259,22 @@ h1 {
   cursor: pointer;
   z-index: 100;
   transition: opacity 0.25s ease; }
-  /* line 74, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+  /* line 70, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .button_container:hover {
     opacity: .7; }
-  /* line 79, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+  /* line 75, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .button_container.active .top {
     transform: translateY(11px) translateX(0) rotate(45deg);
     background: #FF0000; }
-  /* line 83, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+  /* line 79, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .button_container.active .middle {
     opacity: 0;
     background: #FF0000; }
-  /* line 88, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+  /* line 84, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .button_container.active .bottom {
     transform: translateY(-11px) translateX(0) rotate(-45deg);
     background: #FF0000; }
-  /* line 94, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+  /* line 90, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .button_container span {
     background: #ACACAC;
     border: none;
@@ -289,14 +285,14 @@ h1 {
     left: 0;
     transition: all 0.35s ease;
     cursor: pointer; }
-    /* line 105, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    /* line 101, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
     .button_container span:nth-of-type(2) {
       top: 11px; }
-    /* line 109, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    /* line 105, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
     .button_container span:nth-of-type(3) {
       top: 22px; }
 
-/* line 115, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+/* line 111, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
 .overlay {
   position: fixed;
   background: #ACACAC;
@@ -308,25 +304,25 @@ h1 {
   visibility: hidden;
   transition: opacity 0.35s, visibility 0.35s, height 0.35s;
   overflow: hidden; }
-  /* line 127, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+  /* line 123, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .overlay.open {
     opacity: .9;
     visibility: visible;
     height: 100%; }
-    /* line 132, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    /* line 128, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
     .overlay.open li {
       animation: fadeInRight 0.5s ease forwards;
       animation-delay: .35s; }
-      /* line 136, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+      /* line 132, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
       .overlay.open li:nth-of-type(2) {
         animation-delay: .4s; }
-      /* line 139, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+      /* line 135, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
       .overlay.open li:nth-of-type(3) {
         animation-delay: .45s; }
-      /* line 142, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+      /* line 138, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
       .overlay.open li:nth-of-type(4) {
         animation-delay: .50s; }
-  /* line 147, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+  /* line 143, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .overlay nav {
     position: relative;
     height: 70%;
@@ -335,8 +331,8 @@ h1 {
     font-size: 50px;
     font-family: 'Vollkorn', serif;
     font-weight: 400;
-    text-align: center; }
-  /* line 157, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    text-align: left; }
+  /* line 153, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .overlay ul {
     list-style: none;
     padding: 0;
@@ -344,26 +340,26 @@ h1 {
     display: inline-block;
     position: relative;
     height: 100%; }
-    /* line 165, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    /* line 161, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
     .overlay ul li {
       display: block;
       height: 25%;
       min-height: 50px;
       position: relative;
       opacity: 0; }
-      /* line 173, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+      /* line 169, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
       .overlay ul li a {
         display: block;
         position: relative;
         color: #FFF;
         text-decoration: none;
         overflow: hidden; }
-        /* line 182, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+        /* line 178, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
         .overlay ul li a:hover:after,
         .overlay ul li a:focus:after,
         .overlay ul li a:active:after {
           width: 100%; }
-        /* line 186, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+        /* line 182, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
         .overlay ul li a:after {
           content: '';
           position: absolute;
