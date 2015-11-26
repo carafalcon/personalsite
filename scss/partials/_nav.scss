@@ -1,9 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Vollkorn|Roboto);
+@import url(http://fonts.googleapis.com/css?family=Satisfy|Reenie+Beanie);
 
 $color-background: #FFF;
-$color-main: #ACACAC;
-$color-active: #FF0000;
-$color-link: #FFF;
+$color-main: #FFF;
+$color-active: #f69779;
+$color-link: #2e2e2e;
 
 $button-height: 27px;
 $button-width: 35px;
@@ -16,7 +16,7 @@ $button-width: 35px;
   top: 40%;
   left: 0;
   margin:  0 auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Satisfy', cursive;
 
   p {
     font-size: 20px;
@@ -54,13 +54,13 @@ $button-width: 35px;
 h1 {
   position: relative;
   text-align: center;
-  font-family: 'Vollkorn', serif;
+  font-family: 'Satisfy', cursive;
 }
 
 .button_container {
   position: fixed;
-  top: 5%;
-  right: 2%;
+  top: 4%;
+  right: 3%;
   height: $button-height;
   width: $button-width;
   cursor: pointer;
@@ -121,9 +121,10 @@ h1 {
   overflow: hidden;
   
   &.open {
-    opacity: .9;
+    opacity: .85;
     visibility: visible;
     height: 100%;
+    z-index: 2;
     
     li {
       animation: fadeInRight .5s ease forwards;
@@ -145,10 +146,10 @@ h1 {
     height: 70%;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 50px;
-    font-family: 'Vollkorn', serif;
+    font-size: 70px;
+    font-family: 'Reenie Beanie', cursive;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
   }
   ul {
     list-style: none;

@@ -2,33 +2,33 @@
  * Globals
  */
 /* Links */
-@import url(http://fonts.googleapis.com/css?family=Vollkorn|Roboto);
-/* line 8, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+@import url(http://fonts.googleapis.com/css?family=Satisfy|Reenie+Beanie);
+/* line 8, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 a,
 a:focus,
 a:hover {
   color: #FFF; }
 
-/* line 12, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 12, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .socialicons {
   color: #FFF;
   font-family: social;
   font-size: 36pt;
   letter-spacing: 3pt; }
 
-/* line 19, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 19, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 a.socialicons:link, a.socialicons:visited {
   color: #FFF;
   text-decoration: none;
   opacity: 0.6; }
 
-/* line 25, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 25, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 a.socialicons:hover {
   opacity: 1;
   filter: Alpha(opacity=100); }
 
 /* Custom default button */
-/* line 33, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 33, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
@@ -41,20 +41,20 @@ a.socialicons:hover {
 /*
  * Base structure
  */
-/* line 46, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 46, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 html,
 body {
   height: 100%;
   /*background: url(../imgs/small_steps.png) fixed repeat;*/
-  background-color: black; }
+  background-color: #f69779; }
 
-/* line 51, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 51, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 body {
   color: #292929;
   text-align: center; }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
-/* line 57, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 57, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .site-wrapper {
   display: table;
   width: 100%;
@@ -62,44 +62,44 @@ body {
   /* For at least Firefox */
   min-height: 100%; }
 
-/* line 63, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 63, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: middle; }
 
-/* line 67, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 67, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .cover-container {
   margin-right: auto;
   margin-left: auto; }
 
 /* Padding for spacing */
-/* line 73, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 73, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .inner {
   padding: 30px; }
 
 /*
  * Header
  */
-/* line 82, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 82, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .signature {
   width: 70%;
   margin: 20px; }
 
-/* line 87, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 87, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
   display: none; }
 
-/* line 93, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 93, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .masthead-nav > li {
   display: inline-block; }
 
-/* line 96, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 96, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .masthead-nav > li + li {
   margin-left: 20px; }
 
-/* line 99, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 99, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
@@ -110,14 +110,14 @@ body {
   color: rgba(134, 111, 153, 0.75);
   border-bottom: 2px solid transparent; }
 
-/* line 109, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 109, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255, 255, 255, 0.25); }
 
-/* line 116, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 116, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
@@ -125,10 +125,10 @@ body {
   border-bottom-color: #363636; }
 
 @media (min-width: 768px) {
-  /* line 122, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+  /* line 122, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
   .masthead-brand {
     float: left; }
-  /* line 125, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+  /* line 125, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
   .masthead-nav {
     float: right;
     display: none; } }
@@ -136,26 +136,26 @@ body {
 /*
  * Cover
  */
-/* line 136, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 136, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .cover {
   padding: 0 20px; }
 
-/* line 140, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 140, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .cover-heading {
   color: #FFF;
   font-family: luna;
   font-weight: bold; }
 
-/* line 146, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 146, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold; }
 
-/* line 151, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 151, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 .lead {
   font-size: 12pt; }
 
-/* line 155, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+/* line 155, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
 h6 {
   color: #e7e7e7; }
 
@@ -182,28 +182,28 @@ h6 {
  */
 @media (min-width: 768px) {
   /* Pull out the header and footer */
-  /* line 189, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+  /* line 189, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
   .masthead {
     position: fixed;
     top: 0; }
   /* Start the vertical centering */
-  /* line 195, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+  /* line 195, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
   .site-wrapper-inner {
     vertical-align: middle; }
   /* Handle the widths */
-  /* line 200, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+  /* line 200, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
   .masthead,
   .cover-container {
     width: 100%;
     /* Must be percentage or pixels for horizontal alignment */ } }
 
 @media (min-width: 992px) {
-  /* line 207, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_cover.scss */
+  /* line 207, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
   .masthead,
   .cover-container {
     width: 700px; } }
 
-/* line 11, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+/* line 11, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
 .container {
   position: absolute;
   width: 100%;
@@ -212,71 +212,71 @@ h6 {
   top: 40%;
   left: 0;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif; }
-  /* line 21, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+  font-family: 'Satisfy', cursive; }
+  /* line 21, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .container p {
     font-size: 20px; }
-  /* line 25, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+  /* line 25, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .container a {
     display: inline-block;
     position: relative;
     text-align: center;
-    color: #ACACAC;
+    color: #FFF;
     text-decoration: none;
     font-size: 20px;
     overflow: hidden;
     top: 5px; }
-    /* line 35, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    /* line 35, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
     .container a:after {
       content: '';
       position: absolute;
-      background: #ACACAC;
+      background: #FFF;
       height: 2px;
       width: 0%;
       transform: translateX(-50%);
       left: 50%;
       bottom: 0;
       transition: .35s ease; }
-    /* line 48, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    /* line 48, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
     .container a:hover:after,
     .container a:focus:after,
     .container a:active:after {
       width: 100%; }
 
-/* line 54, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+/* line 54, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
 h1 {
   position: relative;
   text-align: center;
-  font-family: 'Vollkorn', serif; }
+  font-family: 'Satisfy', cursive; }
 
-/* line 60, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+/* line 60, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
 .button_container {
   position: fixed;
-  top: 5%;
-  right: 2%;
+  top: 4%;
+  right: 3%;
   height: 27px;
   width: 35px;
   cursor: pointer;
   z-index: 100;
   transition: opacity 0.25s ease; }
-  /* line 70, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+  /* line 70, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .button_container:hover {
     opacity: .7; }
-  /* line 75, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+  /* line 75, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .button_container.active .top {
     transform: translateY(11px) translateX(0) rotate(45deg);
-    background: #FF0000; }
-  /* line 79, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    background: #f69779; }
+  /* line 79, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .button_container.active .middle {
     opacity: 0;
-    background: #FF0000; }
-  /* line 84, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    background: #f69779; }
+  /* line 84, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .button_container.active .bottom {
     transform: translateY(-11px) translateX(0) rotate(-45deg);
-    background: #FF0000; }
-  /* line 90, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    background: #f69779; }
+  /* line 90, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .button_container span {
-    background: #ACACAC;
+    background: #FFF;
     border: none;
     height: 5px;
     width: 100%;
@@ -285,17 +285,17 @@ h1 {
     left: 0;
     transition: all 0.35s ease;
     cursor: pointer; }
-    /* line 101, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    /* line 101, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
     .button_container span:nth-of-type(2) {
       top: 11px; }
-    /* line 105, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    /* line 105, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
     .button_container span:nth-of-type(3) {
       top: 22px; }
 
-/* line 111, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+/* line 111, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
 .overlay {
   position: fixed;
-  background: #ACACAC;
+  background: #FFF;
   top: 0;
   left: 0;
   width: 100%;
@@ -304,35 +304,36 @@ h1 {
   visibility: hidden;
   transition: opacity 0.35s, visibility 0.35s, height 0.35s;
   overflow: hidden; }
-  /* line 123, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+  /* line 123, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .overlay.open {
-    opacity: .9;
+    opacity: .85;
     visibility: visible;
-    height: 100%; }
-    /* line 128, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    height: 100%;
+    z-index: 2; }
+    /* line 129, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
     .overlay.open li {
       animation: fadeInRight 0.5s ease forwards;
       animation-delay: .35s; }
-      /* line 132, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+      /* line 133, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
       .overlay.open li:nth-of-type(2) {
         animation-delay: .4s; }
-      /* line 135, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+      /* line 136, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
       .overlay.open li:nth-of-type(3) {
         animation-delay: .45s; }
-      /* line 138, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+      /* line 139, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
       .overlay.open li:nth-of-type(4) {
         animation-delay: .50s; }
-  /* line 143, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+  /* line 144, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .overlay nav {
     position: relative;
     height: 70%;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 50px;
-    font-family: 'Vollkorn', serif;
+    font-size: 70px;
+    font-family: 'Reenie Beanie', cursive;
     font-weight: 400;
-    text-align: left; }
-  /* line 153, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    text-align: center; }
+  /* line 154, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
   .overlay ul {
     list-style: none;
     padding: 0;
@@ -340,26 +341,26 @@ h1 {
     display: inline-block;
     position: relative;
     height: 100%; }
-    /* line 161, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+    /* line 162, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
     .overlay ul li {
       display: block;
       height: 25%;
       min-height: 50px;
       position: relative;
       opacity: 0; }
-      /* line 169, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+      /* line 170, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
       .overlay ul li a {
         display: block;
         position: relative;
-        color: #FFF;
+        color: #2e2e2e;
         text-decoration: none;
         overflow: hidden; }
-        /* line 178, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+        /* line 179, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
         .overlay ul li a:hover:after,
         .overlay ul li a:focus:after,
         .overlay ul li a:active:after {
           width: 100%; }
-        /* line 182, C:/Users/Christianson/WebstormProjects/personalsite/scss/partials/_nav.scss */
+        /* line 183, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_nav.scss */
         .overlay ul li a:after {
           content: '';
           position: absolute;
@@ -368,7 +369,7 @@ h1 {
           width: 0%;
           transform: translateX(-50%);
           height: 3px;
-          background: #FFF;
+          background: #2e2e2e;
           transition: .35s; }
 
 @keyframes fadeInRight {
