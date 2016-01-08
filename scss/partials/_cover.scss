@@ -74,12 +74,16 @@ body {
   padding: 30px;
 }
 
+.caption p {
+  font-size: 2em;
+}
+
 
 /*
  * Header
  */
 
-.signature {
+.signature, .work-header {
     width: 70%;
     margin: 20px;
 }

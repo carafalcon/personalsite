@@ -81,7 +81,7 @@ body {
  * Header
  */
 /* line 82, /Users/carafalcon/WebstormProjects/personalsite/scss/partials/_cover.scss */
-.signature {
+.signature, .work-header {
   width: 70%;
   margin: 20px; }
 
