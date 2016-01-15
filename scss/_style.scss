@@ -1,0 +1,92 @@
+$bg: #252f34; // dark blue
+$accent: #f3c27c; // yellow
+$white: #fff; //white
+
+body {
+  background-color: $bg;
+  color: $white;
+  font-family: 'Muli', sans-serif;
+  font-size: 1.3em;
+}
+
+// Typography
+
+@font-face {
+  font-family: vwHeadlineBold;
+  src: url('../fonts/vwHeadline.ttf');
+}
+
+@font-face {
+  font-family: vwHeadlineBook;
+  src: url('../fonts/vwHeadline-book.ttf');
+}
+
+.title {
+  color: $accent;
+  font-family: Times;
+  font-size: 7em;
+  letter-spacing: -6.5pt;
+  line-height: 95%;
+}
+
+.title2 {
+  color: $accent;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.7em;
+  letter-spacing: -.3pt;
+  font-style: italic;
+  line-height: 95%;
+}
+
+// Logo
+
+#logo {
+  bottom: 20pt;
+  position: absolute;
+  right: 20pt;
+  width: 12em;
+}
+
+// Links
+
+a {
+  color: #fff;
+}
+
+a:hover,
+a:focus {
+  color: $accent;
+  text-decoration: none;
+}
+
+// Collapsable Panel styling
+
+.panel-heading {
+  padding: 0;
+}
+
+.about-content {
+  text-align: justify;
+  display: inline;
+}
+
+// Table styling
+
+td {
+  padding: .3em;
+}
+
+td.quote {
+  vertical-align: top;
+}
+
+// Header styling
+
+#under-construction {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#caption {
+  font-style: italic;
+}

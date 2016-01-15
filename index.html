@@ -1,76 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Cara's personal site">
-    <meta name="author" content="Cara Falcon">
-
-    <title>Cara Falcon</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
     
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Cara's Portfolio</title>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <script src="js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">  
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
 
-<body>
+  <body>
 
-<div class="button_container" id="toggle">
-  <span class="top"></span>
-  <span class="middle"></span>
-  <span class="bottom"></span>
-</div>
-
-<div class="overlay" id="overlay">
-  <nav class="overlay-menu">
-    <ul>
-      <li><a href="http://www.carafalcon.com">Home</a></li>
-      <li><a href="/work">Work</a></li>
-      <!--<li><a href="#">Contact</a></li>-->
-    </ul>
-  </nav>
-</div>
-
-<div class="site-wrapper">
-
-    <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-            <div class="inner cover">
-                <img src="imgs/signature.png" class="signature">
-                <p class="lead">Welcome to my soon-to-be portfolio of graphic & web design projects.</p>
-                <h6>Note: This site is under construction & will be incredibly awesome soon.</h6>
-                <a class="socialicons" href="http://www.twitter.com/carafalcon">l</a><a class="socialicons" href="http://ca.linkedin.com/in/carafalcon">i</a>
-                </div>
-            </div>
-
+    <!-- Begin page content -->
+    <div class="container">
+       
+       <!-- LOGO -->
+<!--        <img src="img/logo.png" id="logo">-->
+        
+        <!-- ABOUT -->
+        
+        <div id="under-construction">
+          <span class="title2">Cara Falcon</span>
+          <br/><span id="caption">Front-end web dev & chill.</span>
+          <br/><span>*Note: This site is under construction & will be incredibly awesome soon.</span>
         </div>
-
+        
+        <div role="tablist" aria-multiselectable="true">
+            <div class="panel-heading" role="tab" id="headingOne">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="title">
+                    /about
+                </a>
+            <div id="collapseOne" class="collapse" role="tabpanel">
+              <div>
+                <table>
+                   <td class="quote">
+                     <i class="fa fa-quote-left fa-2x"></i>
+                   </td>
+                   
+                   <td>
+                        <span class="title2">Hi, I'm Cara. </span>
+                        <div class="about-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </div>
+                    </td>
+                    
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- WORK -->
+        
+        <div role="tablist" aria-multiselectable="true">
+            <div class="panel-heading" role="tab" id="headingTwo">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" class="title">
+                    /work
+                </a>
+            <div id="collapseTwo" class="collapse" role="tabpanel">
+              <div>
+                <span>Under construction - please check back soon.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- CONTACT -->
+        
+        <div role="tablist" aria-multiselectable="true">
+            <div class="panel-heading" role="tab" id="headingThree">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree" class="title">
+                    /contact
+                </a>
+            <div id="collapseThree" class="collapse" role="tabpanel">
+              <div>
+                <span>
+                    Don't be a stranger - drop me a line:<br/>
+                    <a href="https://ca.linkedin.com/in/carafalcon"><i class="fa fa-linkedin fa-4x"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="http://github.com/carafalcon"><i class="fa fa-github-alt fa-4x"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="http://twitter.com/carafalcon"><i class="fa fa-twitter fa-4x"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="mailto:carafalcon@gmail.com"><i class="fa fa-envelope fa-4x"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
     </div>
-
-</div>
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!--<script src="../../dist/js/bootstrap.min.js"></script>-->
-<script src="js/nav.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
-</body>
+    
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
