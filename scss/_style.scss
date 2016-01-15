@@ -9,6 +9,11 @@ body {
   font-size: 1.3em;
 }
 
+.vertical-align {
+  vertical-align: middle;
+  display: inline;
+}
+
 // Typography
 
 @font-face {
@@ -36,6 +41,11 @@ body {
   letter-spacing: -.3pt;
   font-style: italic;
   line-height: 95%;
+}
+
+#download-resume {
+  color: $white;
+  font: normal normal normal .55em/1 'Muli', sans-serif;
 }
 
 // Logo
@@ -74,6 +84,7 @@ a:focus {
 
 td {
   padding: .3em;
+  text-align: justify;
 }
 
 td.quote {
@@ -83,10 +94,22 @@ td.quote {
 // Header styling
 
 #under-construction {
-    margin-top: 2em;
-    margin-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 #caption {
   font-style: italic;
+}
+
+// Button styling
+
+#resume {
+  background-color: $bg;
+  width: 100%;
+  border: 1px solid #fff;
+  padding: .5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  vertical-align: middle;
 }
