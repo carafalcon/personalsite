@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Muli:300);
+@import url(https://fonts.googleapis.com/css?family=Muli:400);
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -6895,11 +6896,6 @@ body {
   font-family: 'Muli', sans-serif;
   font-size: 1.3em; }
 
-/* line 12, /Users/carafalcon/projects/personalsite/scss/_style.scss */
-.vertical-align {
-  vertical-align: middle;
-  display: inline; }
-
 @font-face {
   font-family: vwHeadlineBold;
   src: url("../fonts/vwHeadline.ttf"); }
@@ -6908,7 +6904,7 @@ body {
   font-family: vwHeadlineBook;
   src: url("../fonts/vwHeadline-book.ttf"); }
 
-/* line 29, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 24, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .title {
   color: #f3c27c;
   font-family: Times;
@@ -6916,7 +6912,7 @@ body {
   letter-spacing: -6.5pt;
   line-height: 95%; }
 
-/* line 37, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 32, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .title2 {
   color: #f3c27c;
   font-family: 'EB Garamond', serif;
@@ -6925,63 +6921,74 @@ body {
   font-style: italic;
   line-height: 95%; }
 
-/* line 46, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 41, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 #download-resume {
-  color: #fff;
-  font: normal normal normal .55em/1 "Muli", sans-serif; }
+  vertical-align: middle;
+  display: inline; }
 
-/* line 53, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 48, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 #logo {
-  bottom: 20pt;
-  position: absolute;
-  right: 20pt;
   width: 12em; }
 
-/* line 62, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 54, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+.jumbotron {
+  background-image: url("../img/jumbotron.png");
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+/* line 63, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 a {
   color: #fff; }
 
-/* line 67, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 68, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 a:hover,
 a:focus {
   color: #f3c27c;
   text-decoration: none; }
 
-/* line 74, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 73, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+#resume:hover {
+  color: #252f34;
+  background-color: #fff; }
+
+/* line 80, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .panel-heading {
   padding: 0; }
 
-/* line 78, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 84, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .about-content {
   text-align: justify;
   display: inline; }
 
-/* line 85, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 91, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 td {
   padding: .3em;
   text-align: justify; }
 
-/* line 90, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 96, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 td.quote {
   vertical-align: top; }
 
-/* line 96, /Users/carafalcon/projects/personalsite/scss/_style.scss */
-#under-construction {
-  margin-top: 2em;
-  margin-bottom: 2em; }
+/* line 102, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+.highlight {
+  background-color: #fff;
+  color: #252f34;
+  font-weight: bolder; }
 
-/* line 101, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 108, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 #caption {
   font-style: italic; }
 
-/* line 107, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 114, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 #resume {
   background-color: #252f34;
   width: 100%;
   border: 1px solid #fff;
   padding: .5em;
   text-transform: uppercase;
-  font-weight: bold;
-  vertical-align: middle; }
+  font-weight: 400;
+  text-align: center;
+  border-radius: 5px; }
 
 /*# sourceMappingURL=main.css.map */

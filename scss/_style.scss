@@ -9,11 +9,6 @@ body {
   font-size: 1.3em;
 }
 
-.vertical-align {
-  vertical-align: middle;
-  display: inline;
-}
-
 // Typography
 
 @font-face {
@@ -44,17 +39,23 @@ body {
 }
 
 #download-resume {
-  color: $white;
-  font: normal normal normal .55em/1 'Muli', sans-serif;
+  vertical-align: middle;
+  display: inline;
 }
 
 // Logo
 
 #logo {
-  bottom: 20pt;
-  position: absolute;
-  right: 20pt;
   width: 12em;
+}
+
+// Jumbotron
+
+.jumbotron {
+  background-image: url("../img/jumbotron.png");
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 // Links
@@ -67,6 +68,11 @@ a:hover,
 a:focus {
   color: $accent;
   text-decoration: none;
+}
+
+#resume:hover {
+  color: $bg;
+  background-color: $white;
 }
 
 // Collapsable Panel styling
@@ -93,16 +99,17 @@ td.quote {
 
 // Header styling
 
-#under-construction {
-  margin-top: 2em;
-  margin-bottom: 2em;
+.highlight {
+  background-color: $white;
+  color: $bg;
+  font-weight: bolder;
 }
 
 #caption {
   font-style: italic;
 }
 
-// Button styling
+// Resume button styling
 
 #resume {
   background-color: $bg;
@@ -110,6 +117,7 @@ td.quote {
   border: 1px solid #fff;
   padding: .5em;
   text-transform: uppercase;
-  font-weight: bold;
-  vertical-align: middle;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 5px;
 }
