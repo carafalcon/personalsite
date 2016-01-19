@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Muli:300);
 @import url(https://fonts.googleapis.com/css?family=Muli:400);
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(https://fonts.googleapis.com/css?family=Damion);
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -6889,12 +6890,13 @@ button.close {
     display: none !important; } }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
-/* line 5, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 9, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 body {
-  background-color: #252f34;
+  background-color: #e9e9e9;
   color: #fff;
   font-family: 'Muli', sans-serif;
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  -webkit-font-smoothing: antialiased; }
 
 @font-face {
   font-family: vwHeadlineBold;
@@ -6904,85 +6906,72 @@ body {
   font-family: vwHeadlineBook;
   src: url("../fonts/vwHeadline-book.ttf"); }
 
-/* line 24, /Users/carafalcon/projects/personalsite/scss/_style.scss */
-.title {
-  color: #f3c27c;
-  font-family: Times;
-  font-size: 7em;
-  letter-spacing: -6.5pt;
-  line-height: 95%; }
+/* line 29, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+.header1 {
+  color: #9b9188;
+  font-size: 5em;
+  font-family: 'Damion', cursive; }
 
-/* line 32, /Users/carafalcon/projects/personalsite/scss/_style.scss */
-.title2 {
-  color: #f3c27c;
-  font-family: 'EB Garamond', serif;
-  font-size: 1.7em;
-  letter-spacing: -.3pt;
-  font-style: italic;
-  line-height: 95%; }
+/* line 35, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+.darkgrey {
+  color: #3b3b3b; }
 
-/* line 41, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 39, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+.darkblue {
+  color: #7ec9d2; }
+
+/* line 43, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+.lightgrey {
+  color: #e9e9e9; }
+
+/* line 47, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 #download-resume {
   vertical-align: middle;
   display: inline; }
 
-/* line 48, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 52, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+#work-button {
+  vertical-align: middle;
+  display: inline; }
+
+/* line 59, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 #logo {
   width: 12em; }
 
-/* line 54, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 65, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .jumbotron {
-  background-image: url("../img/jumbotron.png");
+  background-color: #252f34;
   text-align: center;
   padding-top: 2em;
   padding-bottom: 2em; }
 
-/* line 63, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 74, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 a {
   color: #fff; }
 
-/* line 68, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 79, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 a:hover,
 a:focus {
-  color: #f3c27c;
+  color: #9b9188;
   text-decoration: none; }
 
-/* line 73, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 84, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 #resume:hover {
   color: #252f34;
   background-color: #fff; }
 
-/* line 80, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 89, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+#work-item:hover {
+  color: #fff;
+  background-color: #9b9188; }
+
+/* line 96, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .panel-heading {
   padding: 0; }
 
-/* line 84, /Users/carafalcon/projects/personalsite/scss/_style.scss */
-.about-content {
-  text-align: justify;
-  display: inline; }
-
-/* line 91, /Users/carafalcon/projects/personalsite/scss/_style.scss */
-td {
-  padding: .3em;
-  text-align: justify; }
-
-/* line 96, /Users/carafalcon/projects/personalsite/scss/_style.scss */
-td.quote {
-  vertical-align: top; }
-
 /* line 102, /Users/carafalcon/projects/personalsite/scss/_style.scss */
-.highlight {
-  background-color: #fff;
-  color: #252f34;
-  font-weight: bolder; }
-
-/* line 108, /Users/carafalcon/projects/personalsite/scss/_style.scss */
-#caption {
-  font-style: italic; }
-
-/* line 114, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 #resume {
-  background-color: #252f34;
+  background-color: #9b9188;
   width: 100%;
   border: 1px solid #fff;
   padding: .5em;
@@ -6990,5 +6979,57 @@ td.quote {
   font-weight: 400;
   text-align: center;
   border-radius: 5px; }
+
+/* line 113, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+#work-item {
+  background-color: #e9e9e9;
+  color: #9b9188;
+  width: 50%;
+  border: 1px solid #9b9188;
+  padding: .5em;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 5px; }
+
+/* line 127, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+.height-100 {
+  height: 100vh;
+  min-height: 100vh;
+  content: "viewport-units-buggyfill; height: 100vh;"; }
+
+/* line 133, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+.height-normal {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  padding-left: 6em;
+  padding-right: 6em; }
+
+/* line 140, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+.intro {
+  background-image: url("../img/geometry.png");
+  background-repeat: repeat; }
+
+/* line 145, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+#intro-box {
+  text-align: center;
+  position: relative;
+  top: 40%; }
+
+/* line 151, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+.about {
+  background-color: #9b9188;
+  text-align: center; }
+
+/* line 159, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+.work {
+  background-color: #e9e9e9;
+  color: #3b3b3b;
+  text-align: center; }
+
+/* line 168, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+.contact {
+  background-color: #7ec9d2;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

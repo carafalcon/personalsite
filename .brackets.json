@@ -9,7 +9,8 @@
                 "imagePath": null,
                 "sourceComments": "none",
                 "outputStyle": "nested"
-            }
+            },
+            "fonts.fontSize": "13px"
         }
     }
 }

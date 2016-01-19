@@ -33,88 +33,86 @@
 
     <!-- Begin page content -->
     
-    <div class="jumbotron">
-      <img src="img/logo.png" id="logo"><br><br>
-      <span>Front-end web dev & chill.</span><br>
-      <span class="highlight">*Note: This site is under construction & will be incredibly awesome soon.</span>
-    </div>
-   
-   
-    <div class="container">
-        <!-- ABOUT -->
-        
-        <div role="tablist" aria-multiselectable="true">
-            <div class="panel-heading" role="tab" id="headingOne">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="title">
-                    /about
+    <section class="height-100 intro">
+            <div id="intro-box">
+                <span class="header1">Hey, I'm Cara</span>
+                <br><span class="darkgrey">I like developing & designing websites.</span>
+                <br><br>
+                <i class="fa fa-file-code-o fa-4x darkblue"></i>&nbsp;&nbsp;&nbsp;
+                <i class="fa fa-plus fa-2x darkgrey"></i>&nbsp;&nbsp;&nbsp;
+                <i class="fa fa-file-image-o fa-4x darkblue"></i>
+            </div>
+    </section>
+    
+    <section class="height-normal about">
+            <div id="about-box">
+                <i class="fa fa-laptop fa-5x"></i>  <i class="fa fa-female fa-4x"></i>
+                <h1>Cara Falcon</h1>
+                <span>Twenty-three / UofT B.B.A. Graduate / Avid front-end web developer & UI/UX designer</span>
+                
+                <br><br><center><i class="fa fa-angle-double-down fa-2x"></i></center>
+
+                <br>
+                <a href="files/CaraFalcon_Resume.pdf">
+                <div id="resume">
+                   <i class="fa fa-eye fa-1x"></i>
+                   <span id="download-resume">View Resume</span>
+                </div>
                 </a>
-            <div id="collapseOne" class="collapse" role="tabpanel">
-              <div>
-                <table>
-                   <td class="quote">
-                     <i class="fa fa-quote-left fa-2x"></i>
-                   </td>
-                   
-                   <td>
-                        <span class="title2">Hi, I'm Cara. </span>
-                        <div class="about-content">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                            
-                            <br><br><center><i class="fa fa-angle-double-down fa-2x"></i></center>
-                            
+            </div>
+    </section>
+    
+    <section class="height-normal work">
+            <div id="work-box">
+                <i class="fa fa-briefcase fa-5x"></i>
+                <h1>Work</h1>
+                
+                <br>
+                <center>
+                    <a href="/todo">
+                        <div id="work-item">
+                           <i class="fa fa-list-ul fa-1x"></i>&nbsp;
+                           <span id="work-button">A Basic To-Do List</span>
                         </div>
-                       <br>
-                       <a href="files/CaraFalcon_Resume.pdf">
-                           <div id="resume">
-                               <i class="fa fa-eye fa-1x"></i>
-                               <span id="download-resume">View Resume</span>
-                           </div>
-                       </a>
-                   </td> 
-                </table>
-              </div>
+                    </a><br>
+                    
+                    <a href="http://www.raptorsentourage.com">
+                        <div id="work-item">
+                          <i class="fa fa-newspaper-o fa-1x"></i>&nbsp;
+                           <span id="work-button">Raptors Entourage</span>
+                        </div>
+                    </a><br>
+                    
+                    <a href="http://www.investmentsociety.ca">
+                        <div id="work-item">
+                           <i class="fa fa-usd fa-1x"></i>&nbsp;
+                           <span id="work-button">Investment Society</span>
+                        </div>
+                    </a><br>
+                    
+                    <a href="/johnnys">
+                        <div id="work-item">
+                          <i class="fa fa-usd fa-spoon"></i>&nbsp;
+                           <span id="work-button">Johnny's Hamburgers</span>
+                        </div>
+                    </a>
+                </center>
             </div>
-          </div>
-        </div>
-        
-        <!-- WORK -->
-        
-        <div role="tablist" aria-multiselectable="true">
-            <div class="panel-heading" role="tab" id="headingTwo">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" class="title">
-                    /work
-                </a>
-            <div id="collapseTwo" class="collapse" role="tabpanel">
-              <div>
-                <span>Under construction - please check back soon.</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- CONTACT -->
-        
-        <div role="tablist" aria-multiselectable="true">
-            <div class="panel-heading" role="tab" id="headingThree">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree" class="title">
-                    /contact
-                </a>
-            <div id="collapseThree" class="collapse" role="tabpanel">
-              <div>
-                <span>
-                    Don't be a stranger - drop me a line:<br/>
+    </section>
+   
+   <section class="height-normal contact">
+            <div id="contact-box">
+                <i class="fa fa-comments fa-5x"></i>
+                <h1>Contact</h1>
+                
+                <span class="darkgrey">Don't be a stranger - drop me a line</span><br><br>
                     <a href="https://ca.linkedin.com/in/carafalcon"><i class="fa fa-linkedin fa-4x"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="http://github.com/carafalcon"><i class="fa fa-github-alt fa-4x"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="http://twitter.com/carafalcon"><i class="fa fa-twitter fa-4x"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="mailto:carafalcon@gmail.com"><i class="fa fa-envelope fa-4x"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
-                </span>
-              </div>
             </div>
-          </div>
-        </div>
-        
-    </div>
-    
+    </section>
+ 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
