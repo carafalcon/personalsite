@@ -101,7 +101,7 @@ a:focus {
 
 #resume {
   background-color: $brown;
-  width: 100%;
+  width: 50%;
   border: 1px solid #fff;
   padding: .5em;
   text-transform: uppercase;
@@ -154,6 +154,7 @@ a:focus {
 }
 
 #about-box {
+    text-align: center;
 }
 
 .work {
@@ -171,4 +172,30 @@ a:focus {
 }
 
 #contact-box {
+}
+
+// Media queries
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+    #work-item,
+    #resume {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    /* phones */
+    .social {
+        font-size: 3em;
+    }
+    
+    .height-normal {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    .header1 {
+        font-size: 4em;
+    }
 }

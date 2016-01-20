@@ -6972,7 +6972,7 @@ a:focus {
 /* line 102, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 #resume {
   background-color: #9b9188;
-  width: 100%;
+  width: 50%;
   border: 1px solid #fff;
   padding: .5em;
   text-transform: uppercase;
@@ -7021,15 +7021,39 @@ a:focus {
   background-color: #9b9188;
   text-align: center; }
 
-/* line 159, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 156, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+#about-box {
+  text-align: center; }
+
+/* line 160, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .work {
   background-color: #e9e9e9;
   color: #3b3b3b;
   text-align: center; }
 
-/* line 168, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 169, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .contact {
   background-color: #7ec9d2;
   text-align: center; }
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  /* line 182, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+  #work-item,
+  #resume {
+    width: 90%; } }
+
+@media only screen and (max-width: 380px) {
+  /* phones */
+  /* line 189, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+  .social {
+    font-size: 3em; }
+  /* line 193, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+  .height-normal {
+    padding-left: 1em;
+    padding-right: 1em; }
+  /* line 198, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+  .header1 {
+    font-size: 4em; } }
 
 /*# sourceMappingURL=main.css.map */
