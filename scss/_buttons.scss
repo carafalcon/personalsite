@@ -1,0 +1,60 @@
+.snip0079 {
+  position: relative;
+  font-size: 40px;
+  border: 1px solid #000000;
+  color: #ffffff;
+  width: 75px;
+  margin: 40px;
+  height: 75px;
+  line-height: 75px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.snip0079 * {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.snip0079:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip0079:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #1a1a1a;
+  content: '';
+  z-index: -1;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(0.98);
+  transform: scale(0.98);
+}
+.snip0079:hover,
+.snip0079 .hover {
+  color: #000000;
+}
+.snip0079:hover:after,
+.snip0079 .hover:after {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  opacity: 0;
+}
+
+.snip0079:hover.green,
+.snip0079 .hover.green {
+  color: #000;
+}
+
+.snip0079.green {
+  border: 1px solid #27ae60;
+}
+.snip0079.green:after {
+  background: #36d278;
+}

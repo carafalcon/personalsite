@@ -1,10 +1,16 @@
+$bg: #252f34; // dark blue
+$accent: #f3c27c; // yellow
+$white: #fff; //white
+$brown: #9b9188; // brown
+$darkgrey: #3b3b3b; // dark grey
+$darkblue: #7ec9d2; // dark blue
+$lightgrey: #e9e9e9; // light grey
+
 @import url(https://fonts.googleapis.com/css?family=Muli:300);
 @import url(https://fonts.googleapis.com/css?family=Muli:400);
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
-
 @import url(https://fonts.googleapis.com/css?family=Damion);
 
 @import '../css/bootstrap.min';
 @import 'style';
-
-
+@import 'buttons';

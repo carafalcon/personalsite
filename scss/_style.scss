@@ -14,17 +14,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-// Typography
-
-@font-face {
-  font-family: vwHeadlineBold;
-  src: url('../fonts/vwHeadline.ttf');
-}
-
-@font-face {
-  font-family: vwHeadlineBook;
-  src: url('../fonts/vwHeadline-book.ttf');
-}
+// Header & Colour styling
 
 .header1 {
     color: $brown;
@@ -72,7 +62,7 @@ body {
 // Links
 
 a {
-  color: #fff;
+  color: $white;
 }
 
 a:hover,
@@ -145,7 +135,7 @@ a:focus {
 #intro-box {
     text-align: center;
     position: relative;
-    top: 40%;
+    top: 35%;
 }
 
 .about {
@@ -177,15 +167,15 @@ a:focus {
 // Media queries
 
 @media only screen and (max-width: 767px) {
-    /* phones */
+    /* Phones: Enlarge buttons */
     #work-item,
     #resume {
         width: 90%;
     }
 }
 
-@media only screen and (max-width: 380px) {
-    /* phones */
+@media only screen and (max-width: 420px) {
+    /* Phones: Enlarge social media buttons */
     .social {
         font-size: 3em;
     }

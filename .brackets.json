@@ -10,7 +10,7 @@
                 "sourceComments": "none",
                 "outputStyle": "nested"
             },
-            "fonts.fontSize": "13px"
+            "fonts.fontSize": "11px"
         }
     }
 }
