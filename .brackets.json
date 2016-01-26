@@ -1,16 +1,19 @@
 {
-    "sass.enabled": false,
     "path": {
         "scss/main.scss": {
             "sass.enabled": true,
             "sass.options": {
-                "outputDir": "../css/",
+                "output": "../css/main.css",
                 "includePaths": [],
                 "imagePath": null,
-                "sourceComments": "none",
+                "sourceComments": "map",
                 "outputStyle": "nested"
             },
+<<<<<<< HEAD
             "fonts.fontSize": "11px"
+=======
+            "fonts.fontSize": "16px"
+>>>>>>> 1829b03b20236ae0f95da4a622f3d78666ffb3a2
         }
     }
 }
