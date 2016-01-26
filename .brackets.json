@@ -8,12 +8,7 @@
                 "imagePath": null,
                 "sourceComments": "map",
                 "outputStyle": "nested"
-            },
-<<<<<<< HEAD
-            "fonts.fontSize": "11px"
-=======
-            "fonts.fontSize": "16px"
->>>>>>> 1829b03b20236ae0f95da4a622f3d78666ffb3a2
+            }
         }
     }
 }
