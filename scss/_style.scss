@@ -18,7 +18,7 @@ body {
 
 .header1 {
     color: $brown;
-    font-size: 5em;
+    font-size: 6em;
     font-family: 'Damion', cursive;
 }
 
@@ -107,9 +107,19 @@ a:focus {
   border: 1px solid $brown;
   padding: .5em;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: bolder;
   text-align: center;
   border-radius: 5px;
+  margin: .5em;
+}
+
+.tool {
+	font-size: .8em;
+	background-color: $white;
+	padding: .4em;
+	border-radius: 5px;
+	font-weight: bolder;
+	line-height: 3em;
 }
 
 // Sections
@@ -143,8 +153,9 @@ a:focus {
     text-align: center;
 }
 
-#about-box {
+.about-box {
     text-align: center;
+	width: 70%;
 }
 
 .work {
@@ -154,6 +165,8 @@ a:focus {
 }
 
 #work-box {
+	text-align: center;
+	width: 80%;
 }
 
 .contact {
@@ -164,6 +177,31 @@ a:focus {
 #contact-box {
 }
 
+// Icon sizing
+
+.iconized {
+	width: 11%;
+	display: inline;
+}
+
+.avatar{
+	width: 23%;
+	display: inline;
+}
+
+// Align
+
+.left {
+	text-align: left;
+}
+
+// Horizontal rule
+
+hr {
+	border-color: black;
+	border-style: dashed;
+}
+
 // Media queries
 
 @media only screen and (max-width: 767px) {
@@ -172,6 +210,10 @@ a:focus {
     #resume {
         width: 90%;
     }
+	
+	#work-box {
+		width: 90%;
+	}
 }
 
 @media only screen and (max-width: 420px) {
