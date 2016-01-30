@@ -49,30 +49,37 @@ body {
   padding-top: 2em;
   padding-bottom: 2em; }
 
-/* line 64, /Users/carafalcon/projects/personalsite/scss/_style.scss */
-a {
-  color: #fff; }
+/* line 67, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+a, a:visited, a:active, a:focus {
+  color: #fff;
+  text-decoration: none; }
+  /* line 71, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+  a h4, a:visited h4, a:active h4, a:focus h4 {
+    color: #3b3b3b; }
 
-/* line 69, /Users/carafalcon/projects/personalsite/scss/_style.scss */
-a:hover, a:focus {
+/* line 76, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+a:hover {
   color: #9b9188;
   text-decoration: none; }
+  /* line 80, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+  a:hover h4 {
+    text-decoration: underline; }
 
-/* line 74, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 85, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 #resume:hover {
   color: #252f34;
   background-color: #fff; }
 
-/* line 79, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 90, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 #work-item:hover {
   color: #fff;
   background-color: #9b9188; }
 
-/* line 86, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 97, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .panel-heading {
   padding: 0; }
 
-/* line 92, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 103, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 #resume {
   background-color: #9b9188;
   width: 50%;
@@ -83,7 +90,7 @@ a:hover, a:focus {
   text-align: center;
   border-radius: 5px; }
 
-/* line 103, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 114, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 #work-item {
   background-color: #e9e9e9;
   color: #9b9188;
@@ -96,7 +103,7 @@ a:hover, a:focus {
   border-radius: 5px;
   margin: .5em; }
 
-/* line 116, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 127, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .tool {
   font-size: .8em;
   background-color: #fff;
@@ -105,94 +112,94 @@ a:hover, a:focus {
   font-weight: bolder;
   line-height: 3em; }
 
-/* line 127, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 138, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .height-100 {
   height: 100vh;
   min-height: 100vh;
   content: "viewport-units-buggyfill; height: 100vh;"; }
 
-/* line 133, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 144, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .height-normal {
   padding-top: 4em;
   padding-bottom: 4em;
   padding-left: 6em;
   padding-right: 6em; }
 
-/* line 140, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 151, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .intro {
   background-image: url("../img/geometry.png");
   background-repeat: repeat; }
 
-/* line 145, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 156, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 #intro-box {
   text-align: center;
   position: relative;
-  top: 35%; }
+  top: 30%; }
 
-/* line 151, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 162, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .about {
   background-color: #9b9188;
   text-align: center; }
 
-/* line 156, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 167, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .about-box {
   text-align: center;
   width: 70%; }
 
-/* line 161, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 172, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .work {
   background-color: #e9e9e9;
   color: #3b3b3b;
   text-align: center; }
 
-/* line 167, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 178, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 #work-box {
   text-align: center;
   width: 80%; }
 
-/* line 172, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 183, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .contact {
   background-color: #7ec9d2;
   text-align: center; }
 
-/* line 182, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 193, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .iconized {
   width: 11%;
   display: inline; }
 
-/* line 187, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 198, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .avatar {
   width: 23%;
   display: inline; }
 
-/* line 194, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 205, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 .left {
   text-align: left; }
 
-/* line 200, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+/* line 211, /Users/carafalcon/projects/personalsite/scss/_style.scss */
 hr {
   border-color: black;
   border-style: dashed; }
 
 @media only screen and (max-width: 767px) {
   /* Phones: Enlarge buttons */
-  /* line 210, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+  /* line 221, /Users/carafalcon/projects/personalsite/scss/_style.scss */
   #work-item, #resume {
     width: 90%; }
-  /* line 214, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+  /* line 225, /Users/carafalcon/projects/personalsite/scss/_style.scss */
   #work-box {
     width: 90%; } }
 
 @media only screen and (max-width: 420px) {
   /* Phones: Enlarge social media buttons */
-  /* line 221, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+  /* line 232, /Users/carafalcon/projects/personalsite/scss/_style.scss */
   .social {
     font-size: 3em; }
-  /* line 225, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+  /* line 236, /Users/carafalcon/projects/personalsite/scss/_style.scss */
   .height-normal {
     padding-left: 1em;
     padding-right: 1em; }
-  /* line 230, /Users/carafalcon/projects/personalsite/scss/_style.scss */
+  /* line 241, /Users/carafalcon/projects/personalsite/scss/_style.scss */
   .header1 {
     font-size: 4em; } }
 
