@@ -1,0 +1,50 @@
+@import 'mixins';
+
+// Global Variables
+$white: #FFF;
+$grey: #505050;
+$lightgrey: #EBEBEB;
+$taupe: #EFEDE9;
+
+// Fonts
+@font-face {
+	font-family: Hind;
+	src: url(../../assets/fonts/Hind-Light.ttf);
+}
+
+@font-face {
+	font-family: HindBold;
+	src: url(../../assets/fonts/Hind-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: Crimson;
+	src: url(../../assets/fonts/CrimsonText-Regular.ttf);
+}
+
+body {
+	// -webkit-font-smoothing: antialiased;
+	background-color: $lightgrey;
+	font: 13pt Hind, Helvetica, Arial, sans-serif;
+}
+
+.about {
+    max-width: 800px;
+    background-color: $lightgrey;
+    // margin-right: auto;
+    // margin-left: auto;
+    // position: relative;
+    // height: 100vh;
+    padding: 4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+	@include element('title') {
+		font: 3em Crimson, Helvetica, Arial, sans-serif;
+		color: $grey;
+		line-height: .3em;
+	}
+}
