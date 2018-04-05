@@ -7,23 +7,142 @@
   src: url(../../assets/fonts/Hind-SemiBold.ttf); }
 
 @font-face {
-  font-family: Crimson;
-  src: url(../../assets/fonts/CrimsonText-Regular.ttf); }
+  font-family: Avenir;
+  src: url(../../assets/fonts/Avenir.ttc); }
+
+@font-face {
+  font-family: AvenirBold;
+  src: url(../../assets/fonts/AvenirBold.ttf); }
 
 body {
-  background-color: #EBEBEB;
-  font: 13pt Hind, Helvetica, Arial, sans-serif; }
+  -webkit-font-smoothing: antialiased;
+  background-color: #FFF;
+  font: 12pt Avenir, Helvetica, Arial, sans-serif; }
+
+.container {
+  padding-top: 5.5em;
+  padding-bottom: 5.5em;
+  margin: auto;
+  border-bottom: 1px solid #dddddd; }
 
 .about {
   max-width: 800px;
-  background-color: #EBEBEB;
-  padding: 4em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%); }
+  margin: auto; }
   .about__title {
-    font: 3em Crimson, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font: 2.5em AvenirBold, Helvetica, Arial, sans-serif;
+    color: #000;
+    font-weight: bolder; }
+  .about__description {
+    display: block;
+    text-align: center; }
+  .about__circle-crop {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%; }
+  .about__profilePhoto {
+    width: auto;
+    height: 100%; }
+  .about__contact-section {
+    margin-top: 2em;
+    text-align: center; }
+  .about__contact-icon {
+    height: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em; }
+  .about__button {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font: .7em AvenirBold;
     color: #505050;
-    line-height: .3em; }
+    text-transform: uppercase;
+    background: #FFF;
+    padding: 1em 5.5em;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-top: 1em; }
+    .about__button:hover {
+      color: #505050;
+      background: #ebebeb; }
+    .about__button:focus {
+      color: #505050; }
+
+.project {
+  max-width: 800px;
+  margin: auto; }
+  .project__title {
+    font: 2em AvenirBold, Helvetica, Arial, sans-serif;
+    color: #000;
+    font-weight: bolder; }
+  .project__descriptor {
+    font-family: AvenirBold;
+    vertical-align: top;
+    padding-right: 1.5em;
+    padding-bottom: .5em; }
+  .project__notes {
+    padding-bottom: .5em; }
+  .project__pill {
+    display: inline;
+    background-color: #ebebeb;
+    font-size: .8em;
+    color: #505050;
+    padding: .2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 100em;
+    margin-bottom: 1em; }
+  .project__thumb {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    border: 1px solid #505050;
+    object-fit: cover;
+    object-position: 50% 35%;
+    /* default value: image is centered*/
+    margin: .1em;
+    margin-bottom: 0.3em; }
+  .project__button {
+    display: inline-block;
+    font: .7em AvenirBold;
+    color: #505050;
+    text-transform: uppercase;
+    background: #FFF;
+    padding: 1em 5.5em;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-top: 1em; }
+    .project__button:hover {
+      color: #505050;
+      background: #ebebeb; }
+    .project__button:focus {
+      color: #505050; }
+
+.lightbox-close {
+  font: 1em AvenirBold, Helvetica, Arial, sans-serif;
+  text-transform: uppercase; }
+
+.lightbox-close:hover {
+  text-decoration: none;
+  color: #FFF; }
+
+.lightbox-close:focus {
+  outline: none; }
+
+.lightbox-header .container {
+  border: none;
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+.lightbox img {
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em; }
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: none; }
